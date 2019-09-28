@@ -1,0 +1,29 @@
+{
+  "name": "cuplanner",
+  "version": "1.0.0",
+  "description": "Schedule planner web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unitSphere/cuplanner.git"
+  },
+  "author": "Rustami Ubaydullo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unitSphere/cuplanner/issues"
+  },
+  "homepage": "https://github.com/unitSphere/cuplanner#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.2",
+    "supertest": "^4.0.2"
+  }
+}

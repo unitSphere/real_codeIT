@@ -1,9 +1,9 @@
 let express = require('express');
 let app = express();
 
-let routesController = require('./routes/routesController.js');
+let dependencyManager = require('./routes/dependencyManager.js');
 
-app.use('/', routesController);
+app.use('/', dependencyManager);
 
 
 // to catch any other path and return 404
